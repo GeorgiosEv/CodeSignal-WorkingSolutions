@@ -1,8 +1,11 @@
-def shapeArea(n):
-    if n == 0:
-        return None
-    elif n == 1:
-        return 1
-    elif n > 1:
-        result = (n ** 2) + ((n - 1) ** 2)
-        return result
+def makeArrayConsecutive2(statues):
+    stat_arr = sorted(statues)
+    i = stat_arr[0]
+    result = list()
+    while  i != stat_arr[-1]:
+        i += 1
+        if i not in stat_arr:
+            result.append(i)
+        else:
+            continue
+    return len(result)
