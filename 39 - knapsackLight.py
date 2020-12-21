@@ -14,4 +14,7 @@ def knapsackLight(value1, weight1, value2, weight2, maxW):
         else:
             return value1
     if value1 == value2:
-        return value1
+        if weight1 > maxW:
+            return value2
+        else:
+            return value1
