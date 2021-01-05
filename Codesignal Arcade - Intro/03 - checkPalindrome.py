@@ -9,7 +9,7 @@ def checkPalindrome(inputString):
     inp = inputString.lower()
     # Step 2: Also, we discard all space between words or letters.
     # It is important to store the result in the same variable as in step 1.
-    # Think of it as just only dealing with discarding the spaces.
+    # Think of it as only dealing with discarding the spaces.
     inp = inp.replace(" ","")
     # The first two steps help us end up with a long, uniform (in terms of letter size) string.
     # We define a variable called "reverse" as the reversed counterpart of the input string.
