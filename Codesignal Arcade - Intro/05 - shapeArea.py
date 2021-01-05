@@ -6,7 +6,6 @@ You can see the 1-, 2-, 3- and 4-interesting polygons in the picture below. (PIC
 Example:
 - For n = 2, the output should be shapeArea(n) = 5;
 - For n = 3, the output should be shapeArea(n) = 13."""
-
 def shapeArea(n):
     # Case 1: If the polygon is 0-interesting, it has an area equal to zero.
     if n == 0:
