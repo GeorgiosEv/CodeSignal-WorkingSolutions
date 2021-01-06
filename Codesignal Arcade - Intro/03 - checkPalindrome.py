@@ -12,9 +12,9 @@ def checkPalindrome(inputString):
     # Think of it as only dealing with discarding the spaces.
     inp = inp.replace(" ","")
     # The first two steps help us end up with a long, uniform (in terms of letter size) string.
-    # We define a variable called "reverse" as the reversed counterpart of the input string.
+    # Step 3: We define a variable called "reverse" as the reversed counterpart of the input string.
     reverse = inp[::-1]
-    # The outcome will be "True" only if the original string and its reversed counterpart are the same.
+    # Step 4: The outcome will be "True" only if the original string and its reversed counterpart are the same.
     if (reverse == inp):
         return True
     else:
