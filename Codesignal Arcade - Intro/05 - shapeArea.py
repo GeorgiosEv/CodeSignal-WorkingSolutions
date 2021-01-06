@@ -17,7 +17,7 @@ def shapeArea(n):
     # and the square of n-1. A way that I thought of it (based on the picture provided) is the following: 
     # - n**2: Counted the number of the blue squares from the middle line upwards (INCLUDING the blue squares of the middle line).
     # - (n-1)**2: Counted the number of the blue squares from the middle line downwards (EXCLUDING the blue squares of the middle line).
-    # Of course, you can easily check that the terms "upwards/downwards" could be inverted without affecting the correctness of the final result.
+    # Of course, you can easily check that the terms "upwards/downwards" could be inverted, without affecting the validity of your counting.
     elif n > 1:
         result = (n ** 2) + ((n - 1) ** 2)
         return result
