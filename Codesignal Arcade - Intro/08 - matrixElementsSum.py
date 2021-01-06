@@ -39,11 +39,11 @@ def matrixElementsSum(matrix):
     # whilst the nested for-loop works across all rows.
     for j in range(cols):
       for i in range(rows):
-    # Step 3: If, while counting, the loop meets an element whose value is zero, the counting stops.
+    # Step 4: If, while counting, the loop meets an element whose value is zero, the counting stops.
     # Otherwise, it continues counting, each time adding the value of i-th / j-th to the "summ" variable, defined in step 2.
         if matrix[i][j] == 0:
             break
         summ += matrix[i][j]
-    # Step 4: Therefore, we end up with the total sum of non-zero elements whose position in a column is not
+    # Step 5: Therefore, we end up with the total sum of non-zero elements whose position in a column is not
     # below an element of value zero.
     return summ
