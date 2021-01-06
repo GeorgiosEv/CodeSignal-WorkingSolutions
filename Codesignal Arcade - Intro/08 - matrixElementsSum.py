@@ -40,7 +40,7 @@ def matrixElementsSum(matrix):
     for j in range(cols):
       for i in range(rows):
     # Step 4: If, while counting, the loop meets an element whose value is zero, the counting stops.
-    # Otherwise, it continues counting, each time adding the value of i-th / j-th to the "summ" variable, defined in step 2.
+    # Otherwise, it continues counting, each time adding the value of the i-th / j-th element to the "summ" variable, defined in step 2.
         if matrix[i][j] == 0:
             break
         summ += matrix[i][j]
