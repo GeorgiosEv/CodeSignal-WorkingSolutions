@@ -9,7 +9,7 @@ def commonCharacterCount(s1, s2):
     s2_l = list(s2)
     # Step 2: We also create an empty list, where we are going to store all common characters.
     common = []
-    # Step 3: Using a for-loop, we investigate the list of the first string element by element.
+    # Step 3: Using a for-loop, we investigate the list of the first string, element by element.
     for i in s1_l:
     # Step 4: If the i-th element from the list of the first string is also present in the list of the second string,
     # we append it to the common array. BE CAREFUL: We must implement the s2_l.remove(i) to avoid double-counting.
