@@ -34,7 +34,7 @@ def almostIncreasingSequence(sequence):
     # we add 1 hit to the first counter.
     if sequence[n-1] <= sequence[n-2]:
         c1 += 1
-    # Step 8: If BOTH of the counters have up to 1 hits (that means 0 or 1 EACH), then the sequence is almost increasing.
+    # Step 8: If BOTH of the counters have up to 1 hit (that means 0 or 1 EACH), then the sequence is almost increasing.
     if c1 <= 1 and c2 <= 1:
         return True
     else:
