@@ -13,3 +13,6 @@ def adjacentElementsProduct(inputArray):
     #Step 3: We seek the largest entry in "ArrayEnd" from step 1, using the max() function.
     maximum = max(ArrayEnd)
     return maximum
+#method 2 less space/memory used as no array to store
+def solution(list_nums):
+   return max(a*b for a, b in zip(list_nums, list_nums[1:]))
