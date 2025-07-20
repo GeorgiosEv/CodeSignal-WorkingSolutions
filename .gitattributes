@@ -1,0 +1,3 @@
+# Force .py files to be counted as Python
+*.py linguist-language=Python
+*.py linguist-detectable=true
